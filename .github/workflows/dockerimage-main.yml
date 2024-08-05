@@ -25,4 +25,4 @@ jobs:
         docker login -u $HUB_NAME -p $HUB_KEY
         docker build . --pull --no-cache --tag ft9150/twitch-drops-miner:latest
 
-        docker push dungfu/twitch-drops-miner:latest
+        docker push ft9150/twitch-drops-miner:latest
